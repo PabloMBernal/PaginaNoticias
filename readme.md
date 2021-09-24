@@ -1,0 +1,2 @@
+https://www.rosario3.com/informaciongeneral/Fuego-en-las-islas-Hoy-es-incontrolable-con-las-extensiones-tan-grandes-por-la-bajante-del-rio-20210916-0022.html
+https://theconversation.com/your-driver-assist-system-may-be-out-of-alignment-with-your-understanding-of-how-it-works-166471

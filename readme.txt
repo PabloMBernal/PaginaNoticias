@@ -1,1 +1,0 @@
-https://www.rosario3.com/informaciongeneral/Fuego-en-las-islas-Hoy-es-incontrolable-con-las-extensiones-tan-grandes-por-la-bajante-del-rio-20210916-0022.html
