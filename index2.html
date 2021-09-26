@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The CONVERSATION</title>
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -13,54 +13,62 @@
 <body>
     <div class="top-bar">
         <section class="top">
-            <nav>
-                <a href="https://theconversation.com/us">
-                    <img src="imagenes/home.jpg" alt="home">
-                </a>
-            </nav>
-            <nav class="top-bar">
-                <ul class="menu">
-                    <li class="region africa">
-                        <a title="Africa edition" href="https://theconversation.com/africa">Africa</a>
+            <nav class="bar">
+                <ul>
+                    <li class="bar-item">
+                        <a href="https://theconversation.com/us">
+                            <i class="icon-home"></i>
+                        </a>
                     </li>
-                    <li class="region au">
-                        <a title="Australia edition" href="https://theconversation.com/au">Australia</a>
-                    </li>
-                    <li class="region ca">
-                        <a title="Canada edition" href="https://theconversation.com/ca">Canada</a>
-                    </li>
-                    <li class="region ca-fr">
-                        <a title="Canada (français) edition" href="https://theconversation.com/ca-fr">Canada
-                            (français)</a>
-                    </li>
-                    <li class="region es">
-                        <a title="España edition" href="https://theconversation.com/es">España</a>
-                    </li>
-                    <li class="region fr">
-                        <a title="France edition" href="https://theconversation.com/fr">France</a>
-                    </li>
-                    <li class="region global">
-                        <a title="Global Perspectives edition" href="https://theconversation.com/global">Global
-                            Perspectives</a>
-                    </li>
-                    <li class="region id">
-                        <a title="Indonesia edition" href="https://theconversation.com/id">Indonesia</a>
-                    </li>
-                    <li class="region nz">
-                        <a title="New Zealand edition" href="https://theconversation.com/nz">New Zealand</a>
-                    </li>
-                    <li class="region uk">
-                        <a title="United Kingdom edition" href="https://theconversation.com/uk">United Kingdom</a>
-                    </li>
+                    <li class="bar-item">Edition:</li>
                 </ul>
             </nav>
+            <div class="dropdown-bar">
+                <div class="current">
+                    <button> United States</button>
+                    <ul class="menu">
+                        <li class="region africa">
+                            <a title="Africa edition" href="https://theconversation.com/africa">Africa</a>
+                        </li>
+                        <li class="region au">
+                            <a title="Australia edition" href="https://theconversation.com/au">Australia</a>
+                        </li>
+                        <li class="region ca">
+                            <a title="Canada edition" href="https://theconversation.com/ca">Canada</a>
+                        </li>
+                        <li class="region ca-fr">
+                            <a title="Canada (français) edition" href="https://theconversation.com/ca-fr">Canada
+                                (français)</a>
+                        </li>
+                        <li class="region es">
+                            <a title="España edition" href="https://theconversation.com/es">España</a>
+                        </li>
+                        <li class="region fr">
+                            <a title="France edition" href="https://theconversation.com/fr">France</a>
+                        </li>
+                        <li class="region global">
+                            <a title="Global Perspectives edition" href="https://theconversation.com/global">Global
+                                Perspectives</a>
+                        </li>
+                        <li class="region id">
+                            <a title="Indonesia edition" href="https://theconversation.com/id">Indonesia</a>
+                        </li>
+                        <li class="region nz">
+                            <a title="New Zealand edition" href="https://theconversation.com/nz">New Zealand</a>
+                        </li>
+                        <li class="region uk">
+                            <a title="United Kingdom edition" href="https://theconversation.com/uk">United Kingdom</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <nav class="promo">
                 <ul class="topbar-item-list">
                     <li class="donate">
                         <a
                             href="https://donate.theconversation.com/us?utm_source=theconversation.com&amp;utm_medium=website&amp;utm_campaign=topbar">Donate</a>
                     </li>
-                    <li>
+                    <li class="topbar-button-left">
                         <a title="Sign up to receive our daily email newsletter"
                             href="theconversation.com/us/newsletters/the-daily-3?utm_campaign=System&amp;utm_content=newsletter&amp;utm_medium=TopBar&amp;utm_source=theconversation.com">
                             Get newsletter
@@ -70,17 +78,17 @@
             </nav>
             <nav class="topbar-item-list">
                 <ul>
-                    <li class="author-signup">
+                    <li class="topbar-button">
                         <a href="theconversation.com/become-an-author">Become an author
                         </a>
                     </li>
-                    <li class="reader-signup">
+                    <li class="topbar-button">
                         <a
                             href="theconversation.com/sign_up?return_to=/your-driver-assist-system-may-be-out-of-alignment-with-your-understanding-of-how-it-works-166471">Sign
                             up as a reader
                         </a>
                     </li>
-                    <li class="reader-signin">
+                    <li class="topbar-button">
                         <a
                             href="theconversation.com/sign_in?return_to=/your-driver-assist-system-may-be-out-of-alignment-with-your-understanding-of-how-it-works-166471">Sign
                             in
@@ -94,7 +102,7 @@
     <section class="header">
         <div class="wrapper">
             <header class="cabecera">
-                <a href="https://theconversation.com/us">
+                <a href="https://theconversation.com/us" class="logo">
                     <img src="imagenes/logo-en-2dbf43368862bc522cc1bcb6ac5833fc.svg" alt="The conversation">
                 </a>
 
@@ -103,7 +111,7 @@
                 <form class="masthead-search" action="https://theconversation.com/us/search" accept-charset="UTF-8"
                     method="get">
                     <fieldset>
-                        <legend>Search</legend>
+                        <legend class="button">Search</legend>
                         <div class="row">
                             <div class="input-wrapper">
                                 <label for="q"><i class="icon-search"></i></label>
@@ -119,7 +127,7 @@
                     Academic rigor, journalistic flair
                 </div>
             </header>
-            <nav id="primary-nav">
+            <nav class="primary-nav">
                 <ol>
                     <li class="covid-19">
                         <a class="idle" title="COVID-19" href="https://theconversation.com/us/covid-19">COVID-19
@@ -188,9 +196,6 @@
                 </div>
             </div>
         </figure>
-
-
-
         <div class="wrapper" itemprop="articleBody">
             <div class="sidebar-right">
 
@@ -450,13 +455,10 @@
                         humans
                         are
                         naturally good at. </p>
-
-
-                    <!--revisar xq no se visualiza el video-->
                     <figure>
-                        <div class="placeholder-container"><iframe class=" lazyloaded"
-                                data-src="https://www.youtube.com/embed/fc-ZWkcltec?wmode=transparent&start=0"
-                                allowfullscreen="" width="100%" height="400"></iframe></div>
+                        <a href="https://www.youtube.com/embed/fc-ZWkcltec" target="_blank">
+                            <img src="imagenes/yt-link.jpg" alt="">
+                        </a>
                         <figcaption><span class="caption">Drivers apparently asleep behind the wheel of Teslas is
                                 practically a
                                 genre of viral video.</span></figcaption>
@@ -467,7 +469,8 @@
                             href="https://www.nbcnews.com/nightly-news/video/tesla-driver-caught-on-camera-apparently-asleep-at-the-wheel-68543557694">seen
                             on the evening news</a>, but here is where misunderstanding strikes again. Did these drivers
                         plan to
-                        take a nap or did it just happen? </p>
+                        take a nap or did it just happen?
+                    </p>
 
                     <p>To find out, researchers in another study outfitted drivers with brain and vision monitoring
                         systems
@@ -603,12 +606,12 @@
                             <article>
                                 <figure><a
                                         href="https://theconversation.com/why-the-feds-are-investigating-teslas-autopilot-and-what-that-means-for-the-future-of-self-driving-cars-166307"><img
-                                            src="imagenes/file-20210819-23-izpx1u.jpg"
-                                            alt=""></a></figure>
+                                            src="imagenes/file-20210819-23-izpx1u.jpg" alt=""></a></figure>
                                 <header>
                                     <h2><a
                                             href="https://theconversation.com/why-the-feds-are-investigating-teslas-autopilot-and-what-that-means-for-the-future-of-self-driving-cars-166307"><span>Why
-                                                the feds are investigating Tesla’s Autopilot and what that means for the future
+                                                the feds are investigating Tesla’s Autopilot and what that means for the
+                                                future
                                                 of <span class="nobr">self-driving</span>&nbsp;cars</span></a></h2>
                                 </header>
                             </article>
@@ -617,23 +620,25 @@
                             <article>
                                 <figure><a
                                         href="https://theconversation.com/despite-consumer-worries-the-future-of-aviation-will-be-more-automated-113807"><img
-                                            src="imagenes/file-20190321-93063-7orhiy.jpg"
-                                            alt=""></a></figure>
+                                            src="imagenes/file-20190321-93063-7orhiy.jpg" alt=""></a></figure>
                                 <header>
                                     <h2><a
                                             href="https://theconversation.com/despite-consumer-worries-the-future-of-aviation-will-be-more-automated-113807"><span>Despite
-                                                consumer worries, the future of aviation will be more&nbsp;automated</span></a>
+                                                consumer worries, the future of aviation will be
+                                                more&nbsp;automated</span></a>
                                     </h2>
                                 </header>
                             </article>
                         </div>
                         <div class="article-1PA2M related-article grid-four">
                             <article>
-                                <figure><a href="https://theconversation.com/what-are-these-levels-of-autonomous-vehicles-96396"><img
-                                            src="imagenes/file-20180514-100703-16gfvhs.jpg"
-                                            alt=""></a></figure>
+                                <figure><a
+                                        href="https://theconversation.com/what-are-these-levels-of-autonomous-vehicles-96396"><img
+                                            src="imagenes/file-20180514-100703-16gfvhs.jpg" alt=""></a></figure>
                                 <header>
-                                    <h2><a href="https://theconversation.com/what-are-these-levels-of-autonomous-vehicles-96396"><span>What are these
+                                    <h2><a
+                                            href="https://theconversation.com/what-are-these-levels-of-autonomous-vehicles-96396"><span>What
+                                                are these
                                                 ‘levels’ of autonomous vehicles?</span></a></h2>
                                 </header>
                             </article>
@@ -642,8 +647,7 @@
                             <article>
                                 <figure><a
                                         href="https://theconversation.com/artificial-intelligence-can-help-highway-departments-find-bats-roosting-under-bridges-166806"><img
-                                            src="imagenes/file-20210914-23-szdzvq.jpg"
-                                            alt=""></a></figure>
+                                            src="imagenes/file-20210914-23-szdzvq.jpg" alt=""></a></figure>
                                 <header>
                                     <h2><a
                                             href="https://theconversation.com/artificial-intelligence-can-help-highway-departments-find-bats-roosting-under-bridges-166806"><span>Artificial
@@ -659,18 +663,19 @@
         <div class="page-addendum">
             <div class="wrapper">
                 <div class="grid-sixteen grid-last">
-        
+
                     <div id="addendum-write" class="addendum-block want-to-write">
                         <h3 class="border">Want to write?</h3>
                         <p>
-                            Write an article and join a growing community of more than 133,900 academics and researchers from
+                            Write an article and join a growing community of more than 133,900 academics and researchers
+                            from
                             4,161 institutions.
                         </p>
                         <p class="more">
                             <a class="button" href="https://theconversation.com/become-an-author">Register now</a>
                         </p>
                     </div>
-        
+
                 </div>
             </div>
         </div>
@@ -686,7 +691,8 @@
                                 <a href="https://theconversation.com/us/community-standards">Community standards</a>
                             </li>
                             <li>
-                                <a href="https://theconversation.com/us/republishing-guidelines">Republishing guidelines</a>
+                                <a href="https://theconversation.com/us/republishing-guidelines">Republishing
+                                    guidelines</a>
                             </li>
                             <li>
                                 <a href="https://theconversation.com/us/friends">Friends of The Conversation</a>
@@ -723,7 +729,7 @@
                             <li>
                                 <a href="https://theconversation.com/us/partners">Partners and funders</a>
                             </li>
-    
+
                             <li>
                                 <a href="https://theconversation.com/us/resources-for-media">Resource for media</a>
                             </li>
@@ -740,7 +746,8 @@
                     <div class="sitewide-social-media">
                         <ul>
                             <li class="facebook">
-                                <a title="The Conversation on Facebook" href="https://facebook.com/theConversationUS">​</a>
+                                <a title="The Conversation on Facebook"
+                                    href="https://facebook.com/theConversationUS">​</a>
                             </li>
                             <li class="twitter">
                                 <a title="The Conversation on Twitter" href="https://twitter.com/ConversationUS">​</a>
@@ -766,14 +773,14 @@
                     <a href="https://theconversation.com/us/corrections">Corrections</a>
                 </nav>
                 <p class="copyright">
-                    <span>Copyright © 2010–2021</span><span class="comma">, </span><span><a href="https://theconversation.com/us/who-we-are">The
+                    <span>Copyright © 2010–2021</span><span class="comma">, </span><span><a
+                            href="https://theconversation.com/us/who-we-are">The
                             Conversation US, Inc.</a></span>
                 </p>
             </div>
         </footer>
-    
-    </div>
 
+    </div>
 </body>
 
 </html>
